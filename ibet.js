@@ -16,11 +16,12 @@ var
   http    = require( 'http'         ),
   express = require( 'express'      ),
   routes  = require( './lib/routes' ),
-   socket = require( 'socket.io' ),
+  socket  = require( 'socket.io'    ),
 
-  ibet     = express(),
+  ibet    = express(),
   server  = http.createServer( ibet ),
   listbroadcast;
+    
 // ----------------- END MODULE SCOPE VARIABLES ---------------
 
 // ----------------- BEGIN SERVER CONFIGURATION ---------------
