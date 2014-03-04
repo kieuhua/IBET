@@ -1,0 +1,46 @@
+<!doctype html>
+<!--
+  ibet.html
+  ibet browser document
+-->
+
+<html>
+<head>
+  <!-- ie9+ rendering support for latest standards -->
+  <meta http-equiv="Content-Type" content="text/html; 
+    charset=ISO-8859-1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>IBET Application</title>
+
+  <!-- third-party stylesheets -->
+
+  <!-- our stylesheets -->
+  <link rel="stylesheet" href="css/ibet.css"       type="text/css"/>
+  <link rel="stylesheet" href="css/ibet.shell.css" type="text/css"/>
+  <link rel="stylesheet" href="css/ibet.avtr.css"  type="text/css"/>
+
+  <!-- third-party javascript -->
+  <script src="socket.io/socket.io.js"            ></script>
+  <script src="js/jq/taffydb-2.6.2.js"            ></script>
+  <script src="js/jq/jquery-1.9.1.js"             ></script>
+  <script src="js/jq/jquery.event.gevent-0.1.9.js"></script>
+  <script src="js/jq/jquery.event.ue-0.3.2.js"    ></script>
+
+  <!-- our javascript -->
+  <script src="js/ibet.js"      ></script>
+  <script src="js/ibet.util.js" ></script>
+  <script src="js/ibet.data.js" ></script>
+  <script src="js/ibet.fake.js" ></script>
+  <script src="js/ibet.model.js"></script>
+  <script src="js/ibet.util_b.js" ></script>
+  <script src="js/ibet.shell.js"></script>
+  <script src="js/ibet.avtr.js" ></script>
+  <script>
+    $(function () { ibet.initModule( $('#ibet') ); });
+  </script>
+
+</head>
+<body>
+<div id="ibet"></div>
+</body>
+</html>

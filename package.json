@@ -1,0 +1,35 @@
+{
+  "name": "IBET",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "express": "~3.2.6",
+    "mongodb": "~1.3.23",
+    "socket.io": "~0.9.16",
+    "JSV": "~4.0.2"
+  },
+  "description": "It is a betting game.",
+  "main": "ibet.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kieuhua/ibet.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Web",
+    "application"
+  ],
+  "author": "Kieu Hua",
+  "license": "(BSD-2-Clause) MIT",
+  "bugs": {
+    "url": "https://github.com/kieuhua/ibet/issues"
+  },
+  "homepage": "https://github.com/kieuhua/ibet"
+}

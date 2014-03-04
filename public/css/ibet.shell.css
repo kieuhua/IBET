@@ -1,0 +1,262 @@
+
+.ibet-shell-head, .ibet-shell-head-logo, .ibet-shell-head-winner, .ibet-shell-head-acct,
+.ibet-shell-main-players,
+.ibet-shell-main-content, 
+.ibet-shell-main-waiting, 
+.ibet-shell-foot
+{
+	position : absolute;
+}
+.ibet-shell-head {
+	top		: 0;
+	left	: 0;
+	right	: 0;
+	height	: 100px;
+	background : #cbe1d2;
+}
+.ibet-shell-head-logo {
+	top		      : 4px;
+	left	      : 4px;
+	height	      : 40px;
+	width	      : 128px;
+	border 	      : 4px solid blue;
+	border-radius : 10px;
+	background    : #228141;
+}
+	.ibet-shell-head-logo-text {
+		font-size  : 28px;
+		color      : red;
+		text-align : center;
+	}
+.ibet-shell-head-winner {
+	top        : 20px;
+	left       : 200px;
+	right      : 150px;
+	height     : 50px;
+	font-size  : 28px;
+	color      : red;
+	text-align : center;
+	border 	   : 4px solid #228141;
+	background : #5db47a;
+}
+.ibet-shell-head-acct {
+	top		      : 4px;
+	right	      : 0;
+	width	      : 100px;
+	height	      : 20px;
+	color         : blue;
+	font-size     : 14px;
+	text-align    : center;
+	cursor        : pointer;
+	overflow      : hidden;
+	text-overflow : hidden;
+	background    : green;
+}	
+.ibet-shell-main {
+	top    : 100px;
+	left   : 0px;
+	right  : 0px;
+	bottom : 100px;
+}	
+	.ibet-shell-main-players {
+		top    : 100px;
+		width  : 200px;
+		left   : 0;
+		bottom : 100px;
+		background : #cacad8
+	}
+		.ibet-shell-main-players-label {
+			margin-top    : 20px;
+			width         : 80%;
+			margin-left   : auto;
+			margin-right  : auto;
+			height        : 10%;
+			border 	      : 4px solid #228141;
+			border-radius : 10px;
+			background    : #5db47a;			
+		}
+			.ibet-shell-main-players-label-text {
+				font-size  : 28px;
+				color      : blue;
+				text-align : center;
+			}
+		.ibet-shell-main-players-list {
+			margin-top : 20px;
+			width        : 80%;
+			margin-left  : auto;
+			margin-right : auto;
+			height       : 70%;
+			text-align    : center;
+			font-size     : 28px;
+			color         : red;
+			padding-top   : 25px;
+			text-align    : center;
+			text-shadow : -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
+			cursor        : pointer;
+			text-overflow : ellipsis;
+			background   : #5db47a;
+		}
+	.ibet-shell-main-content {
+		top    : 100px;
+		left   : 200px;
+		right  : 200px;
+		bottom : 100px;		
+		background : #9d9dab;
+	}
+		.ibet-shell-main-content-play {
+			margin-top    : 20px;
+			width         : 25%;
+			margin-left   : auto;
+			margin-right  : auto;
+			height        : 15%;
+			border 	      : 4px solid #aaa;
+			border-radius : 10px;		
+			background    : #cacad8;
+		}			
+			.ibet-shell-main-content-play-text {
+				font-size  : 48px;
+				color      : blue;
+				text-align : center;
+			}
+		.ibet-shell-main-content-avatars {
+			margin-top   : 40px;
+			height       : 30%;
+			width        : 90%;
+			margin-left  : auto;
+			margin-right : auto;
+			border 	     : 4px solid #aaa;
+			background   : #cacad8;	
+		}
+			.ibet-shell-main-content-avatar0, .ibet-shell-main-content-avatar1,
+			.ibet-shell-main-content-avatar2, .ibet-shell-main-content-avatar3,
+			.ibet-shell-main-content-avatar4 {
+				margin-top    : 20px;
+				margin-left   : 20px;
+				float         : left;
+				height        : 70%;
+				width         : 15%;
+				font-size     : 18px;
+				color         : #2c4cc3;
+				padding-top   : 25px;
+				text		  : "Available";
+				text-align    : center;
+				text-shadow : -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
+				cursor        : pointer;
+				text-overflow : ellipsis;
+				border-radius : 10px;
+				border 	      : 4px solid #228141;
+				background    : #cbe1d2;
+			} 
+			.ibet-shell-main-content-avartars-is-user {
+				border-color : #4ff;
+				background   : #ea28cc;
+			}
+			
+		.ibet-shell-main-content-bet-removemebtn {
+			margin-top    : 40px;
+			margin-left   : 80px;
+			float         : left;
+			height        : 20%;
+			width         : 10%;
+			font-size     : 12px;
+			color         : orange;
+			padding       : 5px;
+			text-align    : center;
+			text-shadow : -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
+			cursor        : pointer;
+			text-overflow : ellipsis;
+			border-radius : 10px;
+			border 	      : 4px solid #228141;
+			background    : #cbe1d2;
+		}	
+						
+		.ibet-shell-main-content-bet-eachbet {
+			float         : left;
+			margin-top    : 40px;
+			height        : 10%;
+			width         : 20%;
+			text-align    : center;
+			font-size     : 28px;
+			color         : green;
+			margin-left   : 100px;
+			border 	      : 4px solid #aaa;
+			border-radius : 10px;
+			background    : #cacad8;
+		}
+		
+		.ibet-shell-main-content-bet-addmebtn {
+			margin-top    : 40px;
+			margin-left   : 80px;
+			float         : left;
+			height        : 30%;
+			width         : 15%;
+			font-size     : 20px;
+			color         : red;
+			padding       : 10px;
+			text-align    : center;
+			text-shadow : -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
+			cursor        : pointer;
+			text-overflow : ellipsis;
+			border-radius : 10px;
+			border 	      : 4px solid #228141;
+			background    : #cbe1d2;
+		}
+	.ibet-shell-main-waiting {
+		top    : 100px;
+		width  : 200px;
+		right  : 0;
+		bottom : 100px;
+		background : #cacad8
+	}
+		.ibet-shell-main-waiting-label {
+			margin-top    : 20px;
+			width         : 80%;
+			margin-left   : auto;
+			margin-right  : auto;
+			height        : 10%;
+			border 	      : 4px solid #228141;
+			border-radius : 10px;
+			background    : #5db47a;			
+		}
+			.ibet-shell-main-waiting-label-text {
+				font-size  : 28px;
+				color      : blue;
+				text-align : center;
+			}
+		.ibet-shell-main-waiting-list {
+			margin-top   : 5px;
+			width        : 80%;
+			margin-left  : auto;
+			margin-right : auto;
+			height       : 70%;
+			text-align   : center;
+			font-size    : 20px;
+			color        : orange;
+			padding-top  : 10px;
+			text-align   : center;
+			text-shadow : -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
+			cursor       :pointer;
+			text-overflow : ellipsis;
+			background   : #5db47a;
+		}
+.ibet-shell-foot {
+	bottom 	: 0;
+	left	: 0;
+	right	: 0;
+	height	: 100px;
+	background : #cbe1d2
+}
+.ibet-shell-foot-warning {
+	margin-top : 25px;
+	height       : 40%;
+	width        : 90%;
+	margin-left  : auto;
+	margin-right : auto;
+	border 	     : 4px solid #228141;
+	background   : #5db47a;
+}
+.ibet-shell-foot-warning-text {
+	font-size  : 28px;
+	color      : red;
+	text-align : center;
+}
