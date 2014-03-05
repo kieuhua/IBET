@@ -51,7 +51,7 @@ routes.configRoutes( ibet, server );
 server.listen( process.env.PORT || 5000 );
 
 console.log(
-  'Express server listening on port %d in %s mode',
+  'IBET Express server listening on port %d in %s mode',
    server.address().port, ibet.settings.env
 );
 // ----------------- END START SERVER -------------------------
