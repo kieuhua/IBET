@@ -232,7 +232,7 @@ ibet.shell = (function () {
      var winner, amount, winner_text;
      winner = result_map.winner;
      amount = result_map.amount;
-     winner_text = "The last winner is " + winner + " for " + "$ " + amount + " !!!";
+     winner_text = "The last winner is " + winner + " for " + "$" + amount + " !!!";
      jqueryMap.$winner.text( winner_text );
   };
   
