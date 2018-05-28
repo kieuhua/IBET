@@ -1,6 +1,10 @@
 # IBET
 It is example Javascript Single Page Application(JSA). It is a simple fun betting game. You just login with any name and play. 
 
+### Screenshots
+```
+doc/screenshots
+```
 ### IBET Software
 IBET is JSA, it is written by Kieu Hua using the following software:
 ```
